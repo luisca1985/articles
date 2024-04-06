@@ -49,7 +49,7 @@ plt.show()
 
 
     
-![png](README_files/README_2_0.png)
+![Alt text](README_files/README_2_0.png 'La imagen muestra un gráfico de dispersión titulado "Overlapping Data", enfocado en el eje x etiquetado como "Weight", que varía aproximadamente entre 50 y 100. Representa datos que se solapan, evidenciado por los puntos translúcidos en verde. La gráfica es ancha y baja, sin marcas visibles en el eje y, que ha sido ocultado para resaltar la distribución de los pesos. Los puntos, de tamaño considerable, parecen más concentrados alrededor de ciertos valores de peso, sugiriendo una variación en la densidad de los datos.')
     
 
 
@@ -84,7 +84,8 @@ plt.show()
 
 
     
-![png](README_files/README_4_0.png)
+![Alt text](README_files/README_4_0.png '
+La imagen presenta un gráfico titulado "Grouping Data" que muestra puntos verdes distribuidos verticalmente en líneas que representan diferentes pesos. Las líneas verticales de puntos están alineadas con marcas específicas en el eje x, que varía de aproximadamente 52 a 107, agrupadas en intervalos regulares, lo que indica agrupamientos de datos en categorías de peso. El eje y no es visible, enfocando la atención en la distribución horizontal de los puntos.')
     
 
 
@@ -105,7 +106,7 @@ plt.show()
 
 
     
-![png](README_files/README_6_0.png)
+![Alt text](README_files/README_6_0.png 'La imagen muestra un histograma de color verde con el título "Histogram of Weight". El eje X, etiquetado como "Weight", va de 50 a más de 100, y el eje Y, etiquetado como "Count", muestra la frecuencia, contando en incrementos de 2 hasta un valor máximo que parece ser 18. Las barras representan la frecuencia de pesos, con alturas variables, indicando una distribución de los datos de peso recopilados.')
     
 
 
@@ -128,7 +129,7 @@ plt.show()
 
 
     
-![png](README_files/README_8_0.png)
+![Alt text](README_files/README_8_0.png 'La imagen muestra un histograma titulado `Histogram of Weight with Distribution`, representando la frecuencia de un conjunto de datos respecto al peso. El eje horizontal `Weight` varía de 50 a más de 100, y el eje vertical `Count` mide la frecuencia, con barras de diferentes alturas. Una curva de distribución se superpone a las barras.')
     
 
 
@@ -149,7 +150,7 @@ plt.show()
 
 
     
-![png](README_files/README_10_0.png)
+![Alt text](README_files/README_10_0.png 'La imagen presenta un histograma titulado `Histogram of Height with Distribution`, ilustrando la frecuencia de alturas en un conjunto de datos. El eje horizontal etiquetado `Height` va desde 150 a 190, en incrementos visibles de 5 unidades. El eje vertical `Count` muestra frecuencias que oscilan entre 0 y más de 16, con intervalos de 2. Las barras de histograma son de color azul y una línea de distribución, posiblemente una estimación de densidad kernel, las sobrepasa, delineando la forma de la distribución de datos.')
     
 
 
@@ -174,7 +175,7 @@ plt.show()
 
 
     
-![png](README_files/README_12_0.png)
+![Alt text](README_files/README_12_0.png 'La imagen muestra un histograma titulado `Histogram of Weight with Thin Bins`. El eje horizontal, etiquetado como `Weight`, tiene marcas que van desde 50 hasta 100, y el eje vertical, etiquetado como `Count`, tiene marcas de conteo que aumentan en incrementos de 1, con un máximo visible un poco por encima de 4. Las barras del histograma son de color verde y tienen un ancho delgado, lo que indica un alto número de bins o categorías. La frecuencia de los pesos se muestra distribuida de manera irregular a lo largo del rango, con una altura de barra variable.')
     
 
 
@@ -195,7 +196,7 @@ plt.show()
 
 
     
-![png](README_files/README_14_0.png)
+![ALT text](README_files/README_14_0.png 'La imagen muestra un histograma de dos barras titulado `Histogram of Weight with Thick Bins`. El eje X, etiquetado como `Weight`, abarca desde 50 hasta más de 100, y el eje Y, etiquetado como `Count`, muestra un conteo que va desde 0 hasta más de 50, en incrementos de 5. Las barras del histograma son de color verde y anchas, representando un número reducido de intervalos de peso. La primera barra es significativamente más alta que la segunda, lo que sugiere una mayor frecuencia de pesos en el primer intervalo comparado con el segundo.')
     
 
 
@@ -227,7 +228,7 @@ plt.show()
 
 
     
-![png](README_files/README_16_0.png)
+![png](README_files/README_16_0.png "La imagen muestra un histograma verde titulado `Histogram of Weight with Sturges' formula`. Las barras del histograma representan el conteo de frecuencias de peso dentro de rangos específicos en el eje X, que va desde 50 hasta poco más de 100. El eje Y, etiquetado como `Count`, muestra la frecuencia de las observaciones, y tiene valores que van de 0 a más de 20 en incrementos de 2. La barra más alta se encuentra en el rango de 60 a 70, indicando que la mayor frecuencia de pesos cae dentro de este intervalo.")
     
 
 
@@ -251,9 +252,7 @@ plt.show()
 
 
     
-![png](README_files/README_18_0.png)
-    
-
+![ALT text](README_files/README_18_0.png "La imagen muestra un histograma titulado `Histogram of Weight with Square-root Choice`, con barras verticales de color verde que representan la distribución de la frecuencia de los pesos. Las barras están agrupadas en rangos de peso que van desde 50 hasta más de 100, cada una representando la cuenta de observaciones en esos rangos específicos. La altura de las barras varía, indicando diferentes conteos, y el eje Y, etiquetado como `Count`, tiene marcas desde 0 hasta más de 18, incrementando de 2 en 2. Este histograma utiliza una regla de raíz cuadrada para determinar el ancho de los 'bins'.")
 
 La regla de Freedman-Diaconis utiliza el rango intercuartílico $IQR$ para determinar el ancho del 'bin' $ h $ de una manera que minimiza la diferencia en la distribución de la muestra y la representación del histograma:
 
@@ -282,7 +281,7 @@ plt.show()
 
 
     
-![png](README_files/README_20_1.png)
+![ALT text](README_files/README_20_1.png "La imagen muestra un histograma titulado `Histogram of Weight with Freedman-Diaconis' Choice`. Presenta barras verticales de color verde que representan la frecuencia de diferentes rangos de peso, que varían de 50 a más de 100. La altura de las barras indica el conteo de observaciones dentro de cada rango de peso, con el eje Y marcado de 0 a más de 24 en incrementos de 2. Este histograma aplica la regla de Freedman-Diaconis para determinar el ancho de las barras (`bins`), basado en el rango intercuartílico de los datos, buscando una representación precisa de la distribución de la muestra.")
     
 
 
@@ -308,7 +307,7 @@ plt.show()
 
 
     
-![png](README_files/README_22_0.png)
+![ALT text](README_files/README_22_0.png "La imagen muestra un histograma verde titulado `Histogram of Weight with Scott's Normal Reference Rule`. Las barras representan el conteo de observaciones de peso distribuidas en rangos específicos. La altura de las barras refleja la frecuencia en esos rangos, comenzando en cero y alcanzando un máximo superior a 24. El eje Y está marcado en incrementos de 2, mientras que el eje X muestra los rangos de peso desde 50 hasta más de 100. Este histograma utiliza la regla de Scott, que determina el ancho de las barras basándose en la desviación estándar de los datos para ajustar la distribución normal.")
     
 
 

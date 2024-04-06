@@ -36,10 +36,16 @@ pip install -r requirements.txt
 
 ## Convert Notebook to README.md
 
+Create a folder
+
+```bash
+mkdir <FOLDER_NAME>
+```
+
 To [convert the notebook to a README.md file][Convert the Jupyter notebook to markdown] run:
 
 ```bash
-jupyter nbconvert --execute --to markdown edit_notebook/histograms.ipynb --output-dir . --output README.md
+jupyter nbconvert --execute --to markdown <FOLDER_NAME>/<NOTEBOOK_NAME>.ipynb --output-dir ./<FOLDER_NAME> --output README.md
 ```
 
 [Create a Python Virtual Environment]: https://docs.python.org/3/library/venv.html#creating-virtual-environments

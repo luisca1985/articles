@@ -129,7 +129,7 @@ plt.show()
 
 
     
-![Alt text](README_files/README_8_0.png 'La imagen muestra un histograma titulado `Histogram of Weight with Distribution`, representando la frecuencia de un conjunto de datos respecto al peso. El eje horizontal `Weight` varía de 50 a más de 100, y el eje vertical `Count` mide la frecuencia, con barras de diferentes alturas. Una curva de distribución se superpone a las barras.')
+![Alt text](README_files/README_8_0.png "La imagen muestra un histograma titulado `Histogram of Weight with Distribution`, con barras verdes que representan el conteo de observaciones de peso agrupadas por rango. Las barras varían en altura, indicando la frecuencia de los pesos; las más altas sugieren que esos rangos de peso son más comunes. Una línea curva atraviesa la parte superior de las barras, representando la estimación de la distribución de los datos. Los valores en el eje X varían de 50 a más de 100, y el eje Y está etiquetado de 0 en incrementos de 2, mostrando el conteo de observaciones por rango de peso.")
     
 
 
@@ -150,7 +150,7 @@ plt.show()
 
 
     
-![Alt text](README_files/README_10_0.png 'La imagen presenta un histograma titulado `Histogram of Height with Distribution`, ilustrando la frecuencia de alturas en un conjunto de datos. El eje horizontal etiquetado `Height` va desde 150 a 190, en incrementos visibles de 5 unidades. El eje vertical `Count` muestra frecuencias que oscilan entre 0 y más de 16, con intervalos de 2. Las barras de histograma son de color azul y una línea de distribución, posiblemente una estimación de densidad kernel, las sobrepasa, delineando la forma de la distribución de datos.')
+![Alt text](README_files/README_10_0.png "La imagen presenta un histograma titulado `Histogram of Height with Distribution`, con barras azules que ilustran la frecuencia de distintas alturas. Las barras forman una curva similar a una campana, con la mayor concentración de datos alrededor del centro, indicando una distribución normal. La distribución de los datos está superpuesta con una línea de curva suave, que sugiere la tendencia general y la probabilidad de los datos dentro de esos rangos de altura. El eje X, que representa la altura, varía de 150 a 190, y el eje Y, que muestra el conteo, está marcado en incrementos de 2, mostrando la cantidad de datos en cada rango de altura.")
     
 
 
@@ -175,7 +175,7 @@ plt.show()
 
 
     
-![Alt text](README_files/README_12_0.png 'La imagen muestra un histograma titulado `Histogram of Weight with Thin Bins`. El eje horizontal, etiquetado como `Weight`, tiene marcas que van desde 50 hasta 100, y el eje vertical, etiquetado como `Count`, tiene marcas de conteo que aumentan en incrementos de 1, con un máximo visible un poco por encima de 4. Las barras del histograma son de color verde y tienen un ancho delgado, lo que indica un alto número de bins o categorías. La frecuencia de los pesos se muestra distribuida de manera irregular a lo largo del rango, con una altura de barra variable.')
+![Alt text](README_files/README_12_0.png "")
     
 
 
@@ -196,7 +196,7 @@ plt.show()
 
 
     
-![ALT text](README_files/README_14_0.png 'La imagen muestra un histograma de dos barras titulado `Histogram of Weight with Thick Bins`. El eje X, etiquetado como `Weight`, abarca desde 50 hasta más de 100, y el eje Y, etiquetado como `Count`, muestra un conteo que va desde 0 hasta más de 50, en incrementos de 5. Las barras del histograma son de color verde y anchas, representando un número reducido de intervalos de peso. La primera barra es significativamente más alta que la segunda, lo que sugiere una mayor frecuencia de pesos en el primer intervalo comparado con el segundo.')
+![ALT text](README_files/README_14_0.png "La imagen muestra un histograma titulado `Histogram of Weight with Thick Bins`, donde se visualizan dos barras verticales de color verde que representan conteos de datos de peso dentro de intervalos anchos o `thick bins`. El eje X, que muestra el peso, abarca de 50 a más de 100, mientras que el eje Y, representando el conteo, está marcado en incrementos de 5 hasta un máximo que supera los 50. Esta presentación indica la frecuencia de datos en amplios rangos de peso, ofreciendo una visión generalizada de la distribución de los datos.")
     
 
 

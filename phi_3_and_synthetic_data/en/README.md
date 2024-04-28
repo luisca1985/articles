@@ -1,5 +1,3 @@
-Here is the article translated into English:
-
 # Synthetic Data: Behind the Impressive Performance of Phi-3
 
 ## Abstract

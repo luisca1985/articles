@@ -45,7 +45,7 @@ In this sense, the industry will be divided into two main fronts. The first will
 
 The second front of the industry will be dedicated to optimizing small models and generating the best possible synthetic data. The goal will be to create increasingly smaller and more efficient models that maintain the performance of large models. Companies will strive to find the optimal balance between model size and the quality of synthetic data used for training.
 
-## Application in In-Context Learning (ICL) and Retrieval Augmented Generation (RAG)
+## Application in ICL and RAG
 
 Although the results of Phi-3 are exciting, the reality is that most companies do not have the capacity to develop their own language models, not even the smallest ones. Instead, many companies are adopting approaches such as In-Context Learning (ICL) and Retrieval Augmented Generation (RAG) to leverage existing language models.
 

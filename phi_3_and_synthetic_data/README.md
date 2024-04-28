@@ -11,15 +11,11 @@ El reciente artículo "Phi-3 Technical Report: A Highly Capable Language Model L
 
 Uno de los aspectos más destacados del estudio es la capacidad de reducir significativamente el tamaño del modelo sin comprometer su rendimiento. Phi-3-mini, con solo 3.8 mil millones de parámetros, logra resultados comparables a modelos mucho más grandes como GPT-3.5, que tiene alrededor de 175 mil millones de parámetros. Esta reducción drástica en el tamaño del modelo se logra mediante el uso de datos de entrenamiento optimizados, específicamente datos web altamente filtrados y datos sintéticos generados por modelos de lenguaje más grandes.
 
-![ALT text](README_files/reduce_size.png "This image visually compares a large language model with a smaller, more efficient model, highlighting the significant performance capabilities of the smaller model despite its reduced size.")
-
 Los resultados son impresionantes. Phi-3-mini alcanza un 69% en la prueba MMLU y 8.38 en MT-bench, métricas que miden la capacidad de razonamiento y el rendimiento general del modelo. Estos puntajes son comparables a los obtenidos por modelos significativamente más grandes, como Mixtral 8x7B y GPT-3.5, lo que demuestra que un modelo pequeño puede alcanzar un rendimiento similar al de modelos más grandes cuando se entrena con datos de alta calidad.
 
 ## El poder de los datos sintéticos
 
 Tradicionalmente, ha habido cierta resistencia a trabajar con datos sintéticos en el entrenamiento de modelos de lenguaje, debido a la preocupación de que podrían aumentar los sesgos e incluso afectar negativamente el rendimiento. Sin embargo, los resultados presentados en este artículo desafían esa noción y demuestran que los datos sintéticos, cuando se generan y filtran adecuadamente, pueden mejorar significativamente el rendimiento de un modelo pequeño, permitiéndole alcanzar resultados comparables a los de modelos más grandes.
-
-![ALT text](README_files/synthetic_data_power.png "This image depicts a futuristic laboratory where synthetic data is being created and utilized, symbolizing the innovative and transformative impact of synthetic data on the training of language models.")
 
 Una de las ventajas de utilizar datos sintéticos es que son más fáciles de recopilar y se pueden generar variaciones para cubrir una amplia gama de escenarios. Esto permite entrenar modelos con datos diversos y representativos, lo que a su vez mejora su capacidad de generalización y robustez.
 
@@ -30,8 +26,6 @@ Para entender mejor cómo los datos sintéticos contribuyen a la mejora del rend
 Una posible explicación es que un modelo de lenguaje gigante puede generar datos sintéticos que capturen las salidas más relevantes y proporcionen la mayor cantidad de información diferenciada. Al entrenar un modelo más pequeño con estos datos optimizados, se puede lograr un rendimiento equivalente al del modelo más grande. Este concepto no es completamente nuevo y se ha utilizado en técnicas como la destilación de modelos, donde se entrena un modelo más pequeño para imitar el comportamiento de un modelo más grande.
 
 Otra hipótesis se basa en el principio de reducción de dimensionalidad, similar a técnicas como el Análisis de Componentes Principales (PCA). Aunque PCA y otras técnicas relacionadas no son directamente aplicables a los modelos de lenguaje, debido a su naturaleza no lineal y de alta dimensionalidad, los principios subyacentes pueden aplicarse a través de la generación de datos sintéticos. Al generar datos que capturen las características más relevantes y distintivas, se puede lograr un efecto similar a la reducción de dimensionalidad, permitiendo que un modelo más pequeño aprenda de manera más eficiente.
-
-![ALT text](README_files/hypothesis.png "This image captures a research environment where new ideas and improvements for language models are being explored, highlighting the process of refining these models with synthetic data.")
 
 Además, desde la perspectiva de la teoría de la información, se sabe que una información más rica y estructurada puede conducir a mejores resultados en el aprendizaje. Los datos sintéticos generados por un modelo grande pueden proporcionar una información más densa y significativa, lo que permite que un modelo más pequeño aprenda de manera más efectiva.
 
@@ -47,8 +41,6 @@ Por otro lado, se espera que estos modelos gigantes se utilicen cada vez más pa
 
 En este sentido, la industria se dividirá en dos frentes principales. El primero se centrará en la creación de los mejores modelos gigantes posibles, con el objetivo de minimizar los sesgos, maximizar el rendimiento y la diversidad, y ofrecer las mejores características. Sin embargo, estos modelos no serán utilizados directamente para brindar servicios a los usuarios finales. En cambio, su propósito principal será generar datos sintéticos de la más alta calidad para alimentar los modelos más pequeños.
 
-![ALT text](README_files/industry_future.png "This image features a futuristic cityscape that visually divides the large, powerful language model industry and the more accessible, smaller models used in everyday devices. It symbolizes the evolving landscape of technology and the sharing of knowledge across different scales of operation.")
-
 El segundo frente de la industria se dedicará a la optimización de los modelos pequeños y la generación de la mejor data sintética posible. El objetivo será crear modelos cada vez más pequeños y eficientes que mantengan el rendimiento de los modelos grandes. Las empresas se esforzarán por encontrar el equilibrio óptimo entre el tamaño del modelo y la calidad de los datos sintéticos utilizados para el entrenamiento.
 
 ## Aplicación en el In-Context Learning (ICL) y Retrieval Augmented Generation (RAG)
@@ -60,8 +52,6 @@ En el ICL y el RAG, los datos o textos de la empresa se utilizan para crear embe
 Sin embargo, al igual que en el entrenamiento de modelos pequeños, la calidad de los datos utilizados en el ICL es crucial. Muchos de los datos generados por las empresas pueden ser irrelevantes, redundantes o poco diversos, lo que limita la eficacia del modelo.
 
 Los hallazgos del artículo de Phi-3 pueden arrojar luz sobre cómo mejorar los procesos de ICL y RAG. Una posibilidad es generar datos sintéticos como fuente para RAG, utilizando un modelo de lenguaje para crear datos que tengan las mismas cualidades deseables que se utilizan para entrenar modelos pequeños de alto rendimiento. Esto podría incluir la generación de metadatos relevantes, la aplicación de filtros para seleccionar la información más significativa y la obtención de una mayor diversidad de información mediante técnicas de re-ranking.
-
-![ALT text](README_files/icl_and_rag.png "The image visualizes a modern digital library setting where data is being integrated and processed for intelligent response generation.")
 
 Al generar datos sintéticos de alta calidad para alimentar los modelos de ICL y RAG, las empresas pueden mejorar significativamente la eficacia de estos enfoques. La información generada por un modelo de lenguaje podría proporcionar un valor agregado que no se encuentra fácilmente en la documentación original creada manualmente.
 
@@ -77,4 +67,6 @@ En última instancia, los resultados del artículo de Phi-3 nos recuerdan que el
 
 ## Referencias
 
-[Abdin, M., Jacobs, S. A., Awan, A. A., Aneja, J., Awadallah, A., Awadalla, H., ... Zhou, X. (2024). Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone. *arXiv preprint arXiv:2404.14219*.](https://arxiv.org/abs/2404.14219)
+- [Abdin, M., Jacobs, S. A., Awan, A. A., Aneja, J., Awadallah, A., Awadalla, H., ... Zhou, X. (2024). *Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone*. arXiv preprint arXiv:2404.14219.](https://arxiv.org/abs/2404.14219)
+
+- [Wang, Y., Kordi, Y., Mishra, S., Liu, A., Smith, N. A., Khashabi, D., & Hajishirzi, H. (2023). *Self-Instruct: Aligning Language Models with Self-Generated Instructions*. arXiv preprint arXiv:2212.10560.](https://arxiv.org/abs/2212.10560)

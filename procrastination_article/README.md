@@ -47,4 +47,4 @@ La procrastinación no es necesariamente nuestra enemiga, sino quizás una amiga
 
 [Sirois, F. M. (2023). *Procrastination and Stress: A Conceptual Review of Why Context Matters*. International Journal of Environmental Research and Public Health, 20(9), 5031. https://doi.org/10.3390/ijerph20095031](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10049005/)
 
-[Tsufim, F., & Pomerleau, L. (2023). *More is Less?: Using Generative AI for Idea Generation and Diversification in Early Writing Processes*.](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10049005/)
+[Tsufim, F., & Pomerleau, L. (2023). *More is Less?: Using Generative AI for Idea Generation and Diversification in Early Writing Processes*.](https://uen.pressbooks.pub/teachingandgenerativeai/chapter/more-is-less-using-generative-ai-for-idea-generation-and-diversification-in-early-writing-processes/)

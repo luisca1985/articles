@@ -1,4 +1,4 @@
-# ¿Es la procrastinación realmente mala?
+# ¿Es la Procrastinación Realmente Mala?
 
 ## Introducción
 

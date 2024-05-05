@@ -21,7 +21,7 @@ En lugar de luchar contra la procrastinación, podemos intentar entenderla como 
 - Dividir las tareas abrumadoras en pedazos más pequeños y manejables. Al enfrentar tareas menos intimidantes, podemos sentir menos ansiedad y estar menos tentados a procrastinar.
 - Identificar las razones subyacentes de nuestra procrastinación, como la falta de control o la incertidumbre, y buscar formas de abordarlas. Al enfrentar estas causas de raíz, podemos reducir nuestra tendencia a procrastinar.
 
-## La IA generativa como aliada contra la procrastinación
+## La IA generativa como aliada
 
 Las nuevas tecnologías como la inteligencia artificial que puede generar ideas y contenido por sí misma podrían ser una herramienta útil para manejar la procrastinación, especialmente cuando se debe a la falta de ideas o la incertidumbre sobre cómo abordar una tarea.
 

@@ -26,7 +26,7 @@ Para aprovechar al máximo este potencial, se utiliza el "prompt engineering", q
 
 ## Aprendiendo del Contexto
 
-Una de las características más notables de los modelos de lenguaje es su capacidad de aprender en contexto, es decir, aprovechar ejemplos proporcionados para mejorar la exactitud y presición de su respuesta. Por ejemplo, para generar descripciones de productos, se pueden proporcionar algunos ejemplos y el modelo identificará los patrones para generar descripciones similares para nuevos productos, sin necesidad de ajustar el modelo de lenguaje.
+Una de las características más notables de los modelos de lenguaje es su capacidad de aprender en contexto, es decir, aprovechar ejemplos proporcionados para mejorar la exactitud y precisión de su respuesta. Por ejemplo, para generar descripciones de productos, se pueden proporcionar algunos ejemplos y el modelo identificará los patrones para generar descripciones similares para nuevos productos, sin necesidad de ajustar el modelo de lenguaje.
 
 Esta capacidad de aprendizaje en contexto permite a los modelos de lenguaje adaptarse rápidamente a dominios específicos y a las necesidades particulares de cada organización, sin requerir un entrenamiento extensivo y costoso. Basta con proporcionar unos pocos ejemplos relevantes dentro del prompt para que el modelo "aprenda" sobre la marcha y genere resultados adaptados al contexto.
 

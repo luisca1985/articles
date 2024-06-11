@@ -30,14 +30,6 @@ Una de las características más notables de los modelos de lenguaje es su capac
 
 Esta capacidad de aprendizaje en contexto permite a los modelos de lenguaje adaptarse rápidamente a dominios específicos y a las necesidades particulares de cada organización, sin requerir un entrenamiento extensivo y costoso. Basta con proporcionar unos pocos ejemplos relevantes dentro del prompt para que el modelo "aprenda" sobre la marcha y genere resultados adaptados al contexto.
 
-## Mejorando el Contexto con RAG
-
-A medida que las tareas se complejizan, surge la necesidad de que el modelo acceda a información adicional para generar respuestas más exactas y precisas. Aquí entra en juego el Retrieval Augmented Generation (RAG). Con RAG, el modelo no solo se basa en el prompt y su conocimiento previo, sino que también puede buscar y utilizar información relevante de una base de conocimientos de la organización.
-
-Imaginemos que tenemos una gran cantidad de documentación interna en nuestra empresa. Podemos convertir esta información en embeddings, un formato comprensible para el modelo. Cuando un usuario hace una pregunta, el modelo busca en estos embeddings la información más relevante y la incluye en el contexto para generar una respuesta de acuerdo a dicha información. Es como tener un bibliotecario experto que rápidamente encuentra el libro adecuado para responder a nuestra consulta.
-
-RAG amplía enormemente las capacidades de los modelos de lenguaje, permitiéndoles acceder a conocimientos específicos de un dominio o una organización. Ya no están limitados a su conocimiento previo, sino que pueden aprovechar toda la riqueza de información disponible en nuestras bases de datos y documentos.
-
 ## Memoria y Conversación
 
 Una característica clave de los sistemas de chat basados en modelos de lenguaje es su capacidad para mantener el contexto de la conversación. A medida que interactuamos con el modelo, este va acumulando la historia de nuestro diálogo, permitiendo respuestas más coherentes y relevantes.
@@ -45,6 +37,14 @@ Una característica clave de los sistemas de chat basados en modelos de lenguaje
 Esta memoria conversacional transforma la interacción de un simple intercambio de preguntas y respuestas a una conversación fluida y contextualizada. El modelo puede hacer referencia a aspectos mencionados anteriormente, pedir aclaraciones y construir sobre ideas previas. Es como tener una discusión con un colega que recuerda perfectamente todo lo que se ha dicho y puede hilvanar los diferentes hilos de la conversación.
 
 Esta capacidad de mantener el contexto es especialmente poderosa cuando se combina con técnicas como RAG. El modelo no solo puede acceder a información relevante para la consulta actual, sino que también puede considerar el contexto de la conversación para ofrecer respuestas aún más precisas y personalizadas.
+
+## Mejorando el Contexto con RAG
+
+A medida que las tareas se complejizan, surge la necesidad de que el modelo acceda a información adicional para generar respuestas más exactas y precisas. Aquí entra en juego el Retrieval Augmented Generation (RAG). Con RAG, el modelo no solo se basa en el prompt y su conocimiento previo, sino que también puede buscar y utilizar información relevante de una base de conocimientos de la organización.
+
+Imaginemos que tenemos una gran cantidad de documentación interna en nuestra empresa. Podemos convertir esta información en embeddings, un formato comprensible para el modelo. Cuando un usuario hace una pregunta, el modelo busca en estos embeddings la información más relevante y la incluye en el contexto para generar una respuesta de acuerdo a dicha información. Es como tener un bibliotecario experto que rápidamente encuentra el libro adecuado para responder a nuestra consulta.
+
+RAG amplía enormemente las capacidades de los modelos de lenguaje, permitiéndoles acceder a conocimientos específicos de un dominio o una organización. Ya no están limitados a su conocimiento previo, sino que pueden aprovechar toda la riqueza de información disponible en nuestras bases de datos y documentos.
 
 ## Que Decida el Agente
 
